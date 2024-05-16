@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+#lanzar {
+    height: 80vh;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: none;
+    background-color: white;
+
+}
