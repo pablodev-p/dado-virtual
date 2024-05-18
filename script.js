@@ -1,6 +1,4 @@
 
-
-
 function lanzador() {
 
    const dado = document.querySelector("#lanzar")
@@ -11,6 +9,7 @@ function lanzador() {
     const resultado = Math.ceil(Math.random() * (max - min) + min);
 
     console.log(resultado)
+
 
     
     if(resultado == 1){

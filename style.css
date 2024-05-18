@@ -4,19 +4,37 @@
     box-sizing: border-box;
 }
 
+
 body {
-    background-color: blueviolet;
+    background: #b928d9;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 40px;
 }
 
+.caja {
+    justify-content: center;
+    text-align: center;
+}
+
+button {
+border-style: hidden;
+
+}
+
 #lanzar {
-    height: 80vh;
+    height: 50vh;
+    width: 50vw;
     padding: 10px;
     cursor: pointer;
-    border-radius: none;
-    background-color: white;
+    background: #b928d9;
 
+}
+
+h5 {
+    font-size: 30px;
+    color: cyan;
+    display: block;
+margin-top: 5px;
 }
